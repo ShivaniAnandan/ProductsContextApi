@@ -2,7 +2,6 @@ import { createContext, useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Home from './components/Home';
 import Products from './components/Products';
 import Cart1 from './components/Cart';
 import axios from 'axios';
